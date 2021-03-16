@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+</head>
+<body>
+    <!--
+        Para declarar uma tabela são necessarias as tags
+        <table> = para conter os conteudos
+            <tr> table row - Linha da tabela
+                <td> table data - dados da tabela
+                    também é usado a tag
+                    <th> table hader - cabeçalho de tabela
+    -->
+    <h2>Produtos</h2>
+   <table border="2" width="50%">
+       <tr>
+           <th>Código</th>
+           <th>Produto</th>
+           <th>Preço</th>
+       </tr>
+
+       <tr>
+           <td>001</td>
+           <td>Notebook</td>
+           <td>2.000</td>
+       </tr>
+       <tr>
+           <td>002</td>
+           <td>
+               maquina
+           </td>
+           <td>3.000</td>
+       </tr>
+       <tr>
+           <td rowspan="2">Desconto</td>
+           <td colspan="2">Cupom1-R$10.00</td>
+       </tr>
+       <tr>
+           <td colspan="2">Cupom1-R$10.00</td>
+       </tr>
+       <tr>
+           <td>Total</td>
+           <td colspan="2">3.500</td>
+       </tr>
+   </table>
+</body>
+</html>

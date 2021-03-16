@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <!--
+        Formularioas são criados com a tag
+        <form>- ao clicar no botão enviar todas as informações dentro
+            de <form>sera enviada
+    -->
+    <form action="processa.php">
+        Login:<br>
+        <!--<input> tag de componente de formulario
+            atributos type-- tipo do componente e name-- que defini uma forma de voce recuperar os dados que o usuario digitar usando uma linguagem de programação-->
+
+        <input type="text" name="text_name" ><br>
+        Senha:<br>
+        <input type="password" name="text_Senha"><br>
+       <!-- <input type="button" value="Logar">-->
+       <input type="submit" value="Logar">
+    </form>
+    
+    <h2>Cadastre-se</h2>
+    <form>
+        Login:
+        <input type="text" name="cadastro_login"><br>
+        Sexo:<br>
+        <input type="radio" name="sexo" value="M">Masculino<br>
+        <input type="radio" name="sexo" value="F">Feminino<br>
+    
+
+    
+        <br>Interesses:<br>
+        <input type="checkbox" name="interesses">Futebol<br>
+        <input type="checkbox" name="interesses">Moda<br>
+        <input type="checkbox" name="interesses">Animes<br>
+    
+
+    
+        <br>Estado<br>
+        <select name="estado">
+            <option value="SP">
+                SP
+            </option>
+            <br>
+            <option value="MG">
+                MG
+            </option>
+            <br>
+            <option value="RJ">
+                RJ
+            </option>
+        </select>
+    
+
+    
+        <br><br>Observações:<br>
+        <!--<textarea> campo de observações-->
+        <textarea></textarea><br>
+
+        <input type="submit" name="cadastro">
+    </form>
+</body>
+</html>
